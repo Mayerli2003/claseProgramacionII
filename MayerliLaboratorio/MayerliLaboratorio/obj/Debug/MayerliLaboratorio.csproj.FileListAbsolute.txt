@@ -1,0 +1,8 @@
+C:\Users\mayer\source\repos\MayerliLaboratorio\MayerliLaboratorio\bin\Debug\MayerliLaboratorio.exe.config
+C:\Users\mayer\source\repos\MayerliLaboratorio\MayerliLaboratorio\bin\Debug\MayerliLaboratorio.exe
+C:\Users\mayer\source\repos\MayerliLaboratorio\MayerliLaboratorio\bin\Debug\MayerliLaboratorio.pdb
+C:\Users\mayer\source\repos\MayerliLaboratorio\MayerliLaboratorio\obj\Debug\MayerliLaboratorio.csproj.AssemblyReference.cache
+C:\Users\mayer\source\repos\MayerliLaboratorio\MayerliLaboratorio\obj\Debug\MayerliLaboratorio.csproj.SuggestedBindingRedirects.cache
+C:\Users\mayer\source\repos\MayerliLaboratorio\MayerliLaboratorio\obj\Debug\MayerliLaboratorio.csproj.CoreCompileInputs.cache
+C:\Users\mayer\source\repos\MayerliLaboratorio\MayerliLaboratorio\obj\Debug\MayerliLaboratorio.exe
+C:\Users\mayer\source\repos\MayerliLaboratorio\MayerliLaboratorio\obj\Debug\MayerliLaboratorio.pdb
