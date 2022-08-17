@@ -1,0 +1,8 @@
+C:\Users\Monta\OneDrive\Documents\Visual Studio 2019\ListStudent\ListStudent\bin\Debug\ListStudent.exe.config
+C:\Users\Monta\OneDrive\Documents\Visual Studio 2019\ListStudent\ListStudent\bin\Debug\ListStudent.exe
+C:\Users\Monta\OneDrive\Documents\Visual Studio 2019\ListStudent\ListStudent\bin\Debug\ListStudent.pdb
+C:\Users\Monta\OneDrive\Documents\Visual Studio 2019\ListStudent\ListStudent\obj\Debug\ListStudent.csproj.AssemblyReference.cache
+C:\Users\Monta\OneDrive\Documents\Visual Studio 2019\ListStudent\ListStudent\obj\Debug\ListStudent.csproj.SuggestedBindingRedirects.cache
+C:\Users\Monta\OneDrive\Documents\Visual Studio 2019\ListStudent\ListStudent\obj\Debug\ListStudent.csproj.CoreCompileInputs.cache
+C:\Users\Monta\OneDrive\Documents\Visual Studio 2019\ListStudent\ListStudent\obj\Debug\ListStudent.exe
+C:\Users\Monta\OneDrive\Documents\Visual Studio 2019\ListStudent\ListStudent\obj\Debug\ListStudent.pdb
