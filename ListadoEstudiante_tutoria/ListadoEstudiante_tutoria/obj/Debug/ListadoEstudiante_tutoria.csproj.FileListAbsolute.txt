@@ -1,0 +1,11 @@
+C:\Users\mayer\source\repos\ListadoEstudiante_tutoria\ListadoEstudiante_tutoria\bin\Debug\ListadoEstudiante_tutoria.exe.config
+C:\Users\mayer\source\repos\ListadoEstudiante_tutoria\ListadoEstudiante_tutoria\bin\Debug\ListadoEstudiante_tutoria.exe
+C:\Users\mayer\source\repos\ListadoEstudiante_tutoria\ListadoEstudiante_tutoria\bin\Debug\ListadoEstudiante_tutoria.pdb
+C:\Users\mayer\source\repos\ListadoEstudiante_tutoria\ListadoEstudiante_tutoria\obj\Debug\ListadoEstudiante_tutoria.csproj.AssemblyReference.cache
+C:\Users\mayer\source\repos\ListadoEstudiante_tutoria\ListadoEstudiante_tutoria\obj\Debug\ListadoEstudiante_tutoria.csproj.SuggestedBindingRedirects.cache
+C:\Users\mayer\source\repos\ListadoEstudiante_tutoria\ListadoEstudiante_tutoria\obj\Debug\ListadoEstudiante_tutoria.Form1.resources
+C:\Users\mayer\source\repos\ListadoEstudiante_tutoria\ListadoEstudiante_tutoria\obj\Debug\ListadoEstudiante_tutoria.Properties.Resources.resources
+C:\Users\mayer\source\repos\ListadoEstudiante_tutoria\ListadoEstudiante_tutoria\obj\Debug\ListadoEstudiante_tutoria.csproj.GenerateResource.cache
+C:\Users\mayer\source\repos\ListadoEstudiante_tutoria\ListadoEstudiante_tutoria\obj\Debug\ListadoEstudiante_tutoria.csproj.CoreCompileInputs.cache
+C:\Users\mayer\source\repos\ListadoEstudiante_tutoria\ListadoEstudiante_tutoria\obj\Debug\ListadoEstudiante_tutoria.exe
+C:\Users\mayer\source\repos\ListadoEstudiante_tutoria\ListadoEstudiante_tutoria\obj\Debug\ListadoEstudiante_tutoria.pdb

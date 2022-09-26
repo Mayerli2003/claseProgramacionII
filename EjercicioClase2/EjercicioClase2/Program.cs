@@ -7,34 +7,38 @@ using System.Threading.Tasks;
 
 namespace EjercicioClase2
 {
-    internal class Program
+     class Program
     {
         static void Main(string[] args)
         
         {
             try
             {
-                WriteLine("Ingrese cuatro numeros 4 ");
-                
                 int[] numeros = new int[4];
                 int suma;
+                double media;
+                
+                WriteLine("Ingrese cuatro numeros 4 ");
 
-                WriteLine("Ingrese el numero 1: ");
-                numeros[0] = int.Parse(Console.ReadLine()) ;
+                WriteLine("Ingrese el primer numero ");
+                numeros[0] = Convert.ToInt32(Console.ReadLine());
+                WriteLine("Ingrese el segundo  numero  ");
+                numeros[1] = Convert.ToInt32(Console.ReadLine());
+                WriteLine("Ingrese el tercero  numero  ");
+                numeros[2] = Convert.ToInt32(Console.ReadLine());
+                WriteLine("Ingrese el cuarto  numero  ");
+                numeros[3] = Convert.ToInt32(Console.ReadLine());
 
-                WriteLine("Ingrese el numero 2: ");
-                numeros[1] = int.Parse(Console.ReadLine());
 
-                WriteLine("Ingrese el numero 3: ");
-                numeros[2] = int.Parse(Console.ReadLine());
+                suma = (int)numeros[0] + numeros[1] + numeros[2] + numeros[3];
+                media =(double) suma / 4;
+                WriteLine("La media aritmetica de los numeros " + numeros[0] + ", " + numeros[1] + ", " + numeros[2] + ", " + numeros[3] + " es de  " + media);
+                ReadKey();
 
-                WriteLine("Ingrese el numero 4: ");
-                numeros[3] = int.Parse(Console.ReadLine());
 
-                suma = numeros[0] + numeros[1] + numeros[2] + numeros[3];
-
-                WriteLine("La media aritmetica de los numeros " + numeros[0] + " " + numeros[1] + " " + numeros[2] + " " + numeros[3]+ "es de");
             }
+
+                
             catch (Exception e)
             {
                 WriteLine("Ocurrio un error en la ejecucion del programa " + e.Message);

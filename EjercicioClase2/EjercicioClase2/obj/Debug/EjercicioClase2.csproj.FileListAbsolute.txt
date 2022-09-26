@@ -6,3 +6,11 @@ C:\Users\mayer\source\repos\EjercicioClase2\EjercicioClase2\obj\Debug\EjercicioC
 C:\Users\mayer\source\repos\EjercicioClase2\EjercicioClase2\obj\Debug\EjercicioClase2.csproj.CoreCompileInputs.cache
 C:\Users\mayer\source\repos\EjercicioClase2\EjercicioClase2\obj\Debug\EjercicioClase2.exe
 C:\Users\mayer\source\repos\EjercicioClase2\EjercicioClase2\obj\Debug\EjercicioClase2.pdb
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\EjercicioClase2\EjercicioClase2\bin\Debug\EjercicioClase2.exe.config
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\EjercicioClase2\EjercicioClase2\bin\Debug\EjercicioClase2.exe
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\EjercicioClase2\EjercicioClase2\bin\Debug\EjercicioClase2.pdb
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\EjercicioClase2\EjercicioClase2\obj\Debug\EjercicioClase2.csproj.AssemblyReference.cache
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\EjercicioClase2\EjercicioClase2\obj\Debug\EjercicioClase2.csproj.SuggestedBindingRedirects.cache
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\EjercicioClase2\EjercicioClase2\obj\Debug\EjercicioClase2.csproj.CoreCompileInputs.cache
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\EjercicioClase2\EjercicioClase2\obj\Debug\EjercicioClase2.exe
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\EjercicioClase2\EjercicioClase2\obj\Debug\EjercicioClase2.pdb

@@ -1,0 +1,11 @@
+C:\Users\mayer\source\repos\Tutoria1\Tutoria1\bin\Debug\Tutoria1.exe.config
+C:\Users\mayer\source\repos\Tutoria1\Tutoria1\bin\Debug\Tutoria1.exe
+C:\Users\mayer\source\repos\Tutoria1\Tutoria1\bin\Debug\Tutoria1.pdb
+C:\Users\mayer\source\repos\Tutoria1\Tutoria1\obj\Debug\Tutoria1.csproj.AssemblyReference.cache
+C:\Users\mayer\source\repos\Tutoria1\Tutoria1\obj\Debug\Tutoria1.csproj.SuggestedBindingRedirects.cache
+C:\Users\mayer\source\repos\Tutoria1\Tutoria1\obj\Debug\Tutoria1.Form1.resources
+C:\Users\mayer\source\repos\Tutoria1\Tutoria1\obj\Debug\Tutoria1.Properties.Resources.resources
+C:\Users\mayer\source\repos\Tutoria1\Tutoria1\obj\Debug\Tutoria1.csproj.GenerateResource.cache
+C:\Users\mayer\source\repos\Tutoria1\Tutoria1\obj\Debug\Tutoria1.csproj.CoreCompileInputs.cache
+C:\Users\mayer\source\repos\Tutoria1\Tutoria1\obj\Debug\Tutoria1.exe
+C:\Users\mayer\source\repos\Tutoria1\Tutoria1\obj\Debug\Tutoria1.pdb

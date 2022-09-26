@@ -58,20 +58,7 @@ namespace Restaurante
             
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         void Registrar()
         {
@@ -100,8 +87,11 @@ namespace Restaurante
             }
            
         }
+
+
+
         //Metodo para mostrar los registros
-        void MostarRegistros()
+        void MostrarRegistros()
         {
             try
             {
@@ -120,5 +110,77 @@ namespace Restaurante
 
             }
         }
+        void BuscarRegistro()
+        {
+            try
+            {
+                if (textBuscar.Text != "")
+                {
+                    for (int i = 0; i < indice; i++)
+                    {
+                        if (Per[i].nombre == textNombre.Text)
+                        {
+                            textNombre.Text = Per[i].nombre;
+                            textApellido.Text = Per[i].apellido;
+                            comboGenero.SelectedText = Per[i].genero;
+                            textEdad.Text = Per[i].edad;
+                            comboDia.SelectedText = Convert.ToString(Per[i].FechaDeVisita.dia);
+                            comboMes.SelectedText = Convert.ToString(Per[i].FechaDeVisita.mes);
+                            comboYear.SelectedText = Convert.ToString(Per[i].FechaDeVisita.year);
+                            iModificar = i;
+                        }
+
+                    }
+
+                }
+                else
+                {
+                    MessageBox.Show("Campo de busqueda esta vacio ");
+                }
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Ocurrio un error en la busqueda de registros ", e.Message);
+            }
+
+
+        }
+
+        private void btnRegistar_Click(object sender, EventArgs e)
+        {
+            Registrar();
+            MostrarRegistros();
+            LimpiarCampos();
+
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            btnGuardar.Enabled = true;
+            btnModificar.Enabled = false;
+
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            btnModificar.Enabled = true;
+            btnGuardar.Enabled = false;
+
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            BuscarRegistro();
+
+        }
+
+
+
+
+
+
+
+
     }
 }

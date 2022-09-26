@@ -1,0 +1,11 @@
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\Restaurante\Restaurante\bin\Debug\Restaurante.exe.config
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\Restaurante\Restaurante\bin\Debug\Restaurante.exe
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\Restaurante\Restaurante\bin\Debug\Restaurante.pdb
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\Restaurante\Restaurante\obj\Debug\Restaurante.csproj.AssemblyReference.cache
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\Restaurante\Restaurante\obj\Debug\Restaurante.csproj.SuggestedBindingRedirects.cache
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\Restaurante\Restaurante\obj\Debug\Restaurante.Form1.resources
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\Restaurante\Restaurante\obj\Debug\Restaurante.Properties.Resources.resources
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\Restaurante\Restaurante\obj\Debug\Restaurante.csproj.GenerateResource.cache
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\Restaurante\Restaurante\obj\Debug\Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\Restaurante\Restaurante\obj\Debug\Restaurante.exe
+C:\Users\mayer\Documents\GitHub\claseProgramacionII\Restaurante\Restaurante\obj\Debug\Restaurante.pdb

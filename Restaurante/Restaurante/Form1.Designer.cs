@@ -30,9 +30,17 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnEliminar = new System.Windows.Forms.Button();
-            this.btneditar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
             this.btnRegistar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comboYear = new System.Windows.Forms.ComboBox();
+            this.comboMes = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.comboDia = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textEdad = new System.Windows.Forms.TextBox();
             this.comboGenero = new System.Windows.Forms.ComboBox();
@@ -45,14 +53,7 @@
             this.rtbRegistros = new System.Windows.Forms.RichTextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.textBuscar = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.comboDia = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.comboMes = new System.Windows.Forms.ComboBox();
-            this.comboYear = new System.Windows.Forms.ComboBox();
+            this.btnGuardar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -60,8 +61,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.btnGuardar);
             this.panel1.Controls.Add(this.btnEliminar);
-            this.panel1.Controls.Add(this.btneditar);
+            this.panel1.Controls.Add(this.btnModificar);
             this.panel1.Controls.Add(this.btnRegistar);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.rtbRegistros);
@@ -76,22 +78,23 @@
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Black;
-            this.btnEliminar.Location = new System.Drawing.Point(679, 381);
+            this.btnEliminar.Location = new System.Drawing.Point(663, 381);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(93, 39);
             this.btnEliminar.TabIndex = 6;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
             // 
-            // btneditar
+            // btnModificar
             // 
-            this.btneditar.BackColor = System.Drawing.Color.Black;
-            this.btneditar.Location = new System.Drawing.Point(533, 381);
-            this.btneditar.Name = "btneditar";
-            this.btneditar.Size = new System.Drawing.Size(93, 39);
-            this.btneditar.TabIndex = 5;
-            this.btneditar.Text = "Editar";
-            this.btneditar.UseVisualStyleBackColor = false;
+            this.btnModificar.BackColor = System.Drawing.Color.Black;
+            this.btnModificar.Location = new System.Drawing.Point(465, 381);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(93, 39);
+            this.btnModificar.TabIndex = 5;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = false;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnRegistar
             // 
@@ -102,6 +105,7 @@
             this.btnRegistar.TabIndex = 4;
             this.btnRegistar.Text = "Registrar";
             this.btnRegistar.UseVisualStyleBackColor = false;
+            this.btnRegistar.Click += new System.EventHandler(this.btnRegistar_Click);
             // 
             // groupBox1
             // 
@@ -129,6 +133,148 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos a registrar";
             // 
+            // comboYear
+            // 
+            this.comboYear.FormattingEnabled = true;
+            this.comboYear.Items.AddRange(new object[] {
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023"});
+            this.comboYear.Location = new System.Drawing.Point(313, 224);
+            this.comboYear.Name = "comboYear";
+            this.comboYear.Size = new System.Drawing.Size(55, 21);
+            this.comboYear.TabIndex = 20;
+            // 
+            // comboMes
+            // 
+            this.comboMes.FormattingEnabled = true;
+            this.comboMes.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"});
+            this.comboMes.Location = new System.Drawing.Point(198, 227);
+            this.comboMes.Name = "comboMes";
+            this.comboMes.Size = new System.Drawing.Size(55, 21);
+            this.comboMes.TabIndex = 19;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(310, 251);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(26, 13);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Año";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(195, 251);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(27, 13);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Mes";
+            // 
+            // comboDia
+            // 
+            this.comboDia.FormattingEnabled = true;
+            this.comboDia.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31"});
+            this.comboDia.Location = new System.Drawing.Point(81, 224);
+            this.comboDia.Name = "comboDia";
+            this.comboDia.Size = new System.Drawing.Size(55, 21);
+            this.comboDia.TabIndex = 16;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(89, 251);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(23, 13);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Dia";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(281, 230);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(11, 16);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "/";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(142, 230);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(11, 16);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "/";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -151,6 +297,10 @@
             // 
             this.comboGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboGenero.FormattingEnabled = true;
+            this.comboGenero.Items.AddRange(new object[] {
+            "Masculino",
+            "Femenino",
+            "Prefiero no decirlo"});
             this.comboGenero.Location = new System.Drawing.Point(112, 116);
             this.comboGenero.Name = "comboGenero";
             this.comboGenero.Size = new System.Drawing.Size(265, 24);
@@ -214,6 +364,7 @@
             // 
             // rtbRegistros
             // 
+            this.rtbRegistros.ForeColor = System.Drawing.SystemColors.WindowText;
             this.rtbRegistros.Location = new System.Drawing.Point(27, 77);
             this.rtbRegistros.Name = "rtbRegistros";
             this.rtbRegistros.Size = new System.Drawing.Size(313, 343);
@@ -230,161 +381,29 @@
             this.btnBuscar.TabIndex = 1;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // textBuscar
             // 
             this.textBuscar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBuscar.ForeColor = System.Drawing.Color.White;
+            this.textBuscar.ForeColor = System.Drawing.Color.Black;
             this.textBuscar.Location = new System.Drawing.Point(69, 13);
             this.textBuscar.Multiline = true;
             this.textBuscar.Name = "textBuscar";
             this.textBuscar.Size = new System.Drawing.Size(476, 32);
             this.textBuscar.TabIndex = 0;
             // 
-            // label5
+            // btnGuardar
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(142, 230);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(11, 16);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "/";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(281, 230);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(11, 16);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "/";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(89, 251);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(23, 13);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "Dia";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // comboDia
-            // 
-            this.comboDia.FormattingEnabled = true;
-            this.comboDia.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30",
-            "31"});
-            this.comboDia.Location = new System.Drawing.Point(81, 224);
-            this.comboDia.Name = "comboDia";
-            this.comboDia.Size = new System.Drawing.Size(55, 21);
-            this.comboDia.TabIndex = 16;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(195, 251);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(27, 13);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "Mes";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(310, 251);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(26, 13);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Año";
-            // 
-            // comboMes
-            // 
-            this.comboMes.FormattingEnabled = true;
-            this.comboMes.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12"});
-            this.comboMes.Location = new System.Drawing.Point(198, 227);
-            this.comboMes.Name = "comboMes";
-            this.comboMes.Size = new System.Drawing.Size(55, 21);
-            this.comboMes.TabIndex = 19;
-            // 
-            // comboYear
-            // 
-            this.comboYear.FormattingEnabled = true;
-            this.comboYear.Items.AddRange(new object[] {
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019",
-            "2020",
-            "2021",
-            "2022",
-            "2023"});
-            this.comboYear.Location = new System.Drawing.Point(313, 224);
-            this.comboYear.Name = "comboYear";
-            this.comboYear.Size = new System.Drawing.Size(55, 21);
-            this.comboYear.TabIndex = 20;
+            this.btnGuardar.BackColor = System.Drawing.Color.Black;
+            this.btnGuardar.Location = new System.Drawing.Point(564, 381);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(93, 39);
+            this.btnGuardar.TabIndex = 7;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // Form1
             // 
@@ -395,7 +414,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -411,7 +429,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RichTextBox rtbRegistros;
         private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btneditar;
+        private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnRegistar;
         private System.Windows.Forms.ComboBox comboGenero;
         private System.Windows.Forms.TextBox textApellido;
@@ -430,6 +448,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox comboDia;
+        private System.Windows.Forms.Button btnGuardar;
     }
 }
 
