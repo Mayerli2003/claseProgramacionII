@@ -1,0 +1,12 @@
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\bin\Debug\GardenParkingSystem.exe.config
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\bin\Debug\GardenParkingSystem.exe
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\bin\Debug\GardenParkingSystem.pdb
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\obj\Debug\GardenParkingSystem.csproj.AssemblyReference.cache
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\obj\Debug\GardenParkingSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\obj\Debug\GardenParkingSystem.Form1.resources
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\obj\Debug\GardenParkingSystem.Properties.Resources.resources
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\obj\Debug\GardenParkingSystem.csproj.GenerateResource.cache
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\obj\Debug\GardenParkingSystem.csproj.CoreCompileInputs.cache
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\obj\Debug\GardenParkingSystem.exe
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\obj\Debug\GardenParkingSystem.pdb
+C:\Users\mayer\source\repos\GardenParkingSystem\GardenParkingSystem\obj\Debug\GardenParkingSystem.Cobrarcs.resources

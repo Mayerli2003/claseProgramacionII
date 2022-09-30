@@ -1,0 +1,11 @@
+C:\Users\mayer\source\repos\TiendaTecnologia\TiendaTecnologia\bin\Debug\TiendaTecnologia.exe.config
+C:\Users\mayer\source\repos\TiendaTecnologia\TiendaTecnologia\bin\Debug\TiendaTecnologia.exe
+C:\Users\mayer\source\repos\TiendaTecnologia\TiendaTecnologia\bin\Debug\TiendaTecnologia.pdb
+C:\Users\mayer\source\repos\TiendaTecnologia\TiendaTecnologia\obj\Debug\TiendaTecnologia.csproj.AssemblyReference.cache
+C:\Users\mayer\source\repos\TiendaTecnologia\TiendaTecnologia\obj\Debug\TiendaTecnologia.csproj.SuggestedBindingRedirects.cache
+C:\Users\mayer\source\repos\TiendaTecnologia\TiendaTecnologia\obj\Debug\TiendaTecnologia.Form1.resources
+C:\Users\mayer\source\repos\TiendaTecnologia\TiendaTecnologia\obj\Debug\TiendaTecnologia.Properties.Resources.resources
+C:\Users\mayer\source\repos\TiendaTecnologia\TiendaTecnologia\obj\Debug\TiendaTecnologia.csproj.GenerateResource.cache
+C:\Users\mayer\source\repos\TiendaTecnologia\TiendaTecnologia\obj\Debug\TiendaTecnologia.csproj.CoreCompileInputs.cache
+C:\Users\mayer\source\repos\TiendaTecnologia\TiendaTecnologia\obj\Debug\TiendaTecnologia.exe
+C:\Users\mayer\source\repos\TiendaTecnologia\TiendaTecnologia\obj\Debug\TiendaTecnologia.pdb
